@@ -102,22 +102,45 @@ th {
 }
 
 .text-goal {
-    margin: 20px;
-    padding: 20px;
-    border: 2px red dotted;
-    border-radius: 15px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px red dotted;
+  border-radius: 15px;
 }
 
-#description .description-text{
-    margin: 20px;
-    padding: 20px;
-    border: 10px rgb(174, 0, 255) dotted;
-    border-radius: 15px;
-    color: brown;
+#description .description-text {
+  margin: 20px;
+  padding: 20px;
+  border: 10px rgb(174, 0, 255) dotted;
+  border-radius: 15px;
+  color: brown;
 }
 
 footer {
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 300px) {
+  table {
+    margin: 0;
+  }
+
+  td,
+  th {
+    padding: 0px;
+  }
+
+  .flex-goal {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .flex-goal div {
+    margin: 5px;
+    padding: 10px;
+  }
 }
